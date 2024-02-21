@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("DOM fully loaded and parsed");
-
     let navbarContainer = document.getElementById("navbar");
 
     let navbarHTML = 
@@ -9,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="navbar-content">
                     <div class="navbar-item">(Logo)</div>
                     <div class="navbar-content-center">
-                        <div class="navbar-item">Introdução</div>
-                        <div class="navbar-item">Sobre Mim</div>
-                        <div class="navbar-item">Certificações</div>
-                        <div class="navbar-item">Projetos</div>
+                        <a class="" href="#">Introdução</a>
+                        <a class="" href="#">Sobre Mim</a>
+                        <a class="" href="#">Certificações</a>
+                        <a class="" href="#">Projetos</a>
                     </div>
                     <div class="navbar-item">Contato</div>
                 </div>
@@ -26,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     document.head.appendChild(navbarCSS)
 
-    
 
-  });
+
+    
+});
 

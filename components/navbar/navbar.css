@@ -1,21 +1,21 @@
 .navbar-container{
     width: 100%;
-    background-color: red;
-    height: 55px;
+    /* Retirar Background-Color posteriormente */
+    background-color: rgba(255,255,255,0.3); 
+    height: 60px;
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(4px);
 }
 
 .navbar-content{
     width: 100%;
     max-width: 1300px;
-    background-color: green;
-    height: 55px;
+    height: 60px;
     align-items: center;
     display: flex;
     margin: 0 50px 0 50px;
     justify-content: space-between;
-
 }
 
 .navbar-content-center{
@@ -23,15 +23,22 @@
     max-width:fit-content;
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
 }
 
-.navbar-item {
-    background-color: #ffffff;
+a {
+    color:#000000;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-.navbar-item:hover {
+a:hover {
     color: #ffffff;
 }
+
+a:active{
+    color: green;
+}
+
 
 

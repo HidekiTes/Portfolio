@@ -1,0 +1,30 @@
+.title-container{
+    font-size: 90px;
+    align-items: center;
+    margin-top: 250px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.title-layout{
+    width: 1000px;
+    background: red;
+    margin: 0 0 0 0;
+    ;
+}
+
+.h1-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.h2-style{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-weight: 100;
+}

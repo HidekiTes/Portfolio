@@ -12,6 +12,10 @@
     font-family: 'Mona Sans';
   }
 
+  body {
+    background-image: url("/img/fundo.jpg");
+  }
+
   /*  */
   * {
       margin:0;
