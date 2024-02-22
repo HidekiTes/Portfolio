@@ -1,27 +1,61 @@
 /* Faz a importação da Fonte */
 @font-face {
-    font-family: 'Mona Sans';
-    src:
-      url('src/MonaSans/Mona-Sans.woff2') format('woff2 supports variations'),
-      url('src/MonaSans/Mona-Sans.woff2') format('woff2-variations');
-    font-weight: 200 900;
-    font-stretch: 75% 125%;
-  }
+  font-family: 'Mona Sans';
+  src:
+    url('src/MonaSans/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('src/MonaSans/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
   
-  html {
-    font-family: 'Mona Sans';
-  }
+html {
+  font-family: 'Mona Sans';
+  width: 100vw;
+}
 
-  body {
-    background-image: url("/img/fundo.jpg");
-  }
+body {
+  background-color: black;
+  background-image: url("/img/fundo.jpg");
+  height: 1300px;
+  overflow-x: hidden;
+  width: 100vw;
+  background-size: 100vw;
+}
 
-  /*  */
-  * {
-      margin:0;
-    }
-    
+* {
+  margin: 0;
+}
+
+/* Custom Scroll */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:active {
+  width: 30px;
+  background-color: chartreuse;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-track:active {
+  width: 30px;
+  background-color: chartreuse;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  width: 15px;
+  border-radius: 30px;
+}
 
 
 
-
+/* Esconde a parte branca do scrollbar */
