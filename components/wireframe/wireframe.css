@@ -1,10 +1,9 @@
-.wireframe-comp-1{
-    margin-top: 60px;
+.wireframe-comp-1 {
+    margin-top: 60px; /* Keep the desired margin-top */
     font-size: 90px;
     align-items: center;
-    margin-top: px;
     display: flex;
-    height:800px;
+    height: 800px;
     justify-content: center;
     background-color: brown;
 }
