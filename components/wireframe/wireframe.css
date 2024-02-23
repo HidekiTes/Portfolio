@@ -1,1 +1,20 @@
-/*  */
+.wireframe-comp-1{
+    margin-top: 60px;
+    font-size: 90px;
+    align-items: center;
+    margin-top: px;
+    display: flex;
+    height:800px;
+    justify-content: center;
+    background-color: brown;
+}
+
+.wireframe-comp-2{
+    font-size: 90px;
+    align-items: center;
+    margin-top: px;
+    display: flex;
+    height:800px;
+    justify-content: center;
+    background-color: rgb(71, 165, 42);
+}

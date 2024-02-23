@@ -1,11 +1,11 @@
-.wire-container{
+/* .wire-container-2{
     font-size: 90px;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 0px;
     display: flex;
-    height: 760px;
+    height:800px;
     justify-content: center;
-    background-color: brown;
+    background-color: rgb(92, 14, 14);
     display: flex;
 }
 
@@ -35,4 +35,5 @@
     justify-content: center;
     margin-top: 0px;
     font-weight: 100;
-}
+} */
+

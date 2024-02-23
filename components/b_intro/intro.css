@@ -1,4 +1,10 @@
-
+.title-container{
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-weight: bolder;
+    background-color: blueviolet;
+}
 
 .title-layout{
     width: 1000px;

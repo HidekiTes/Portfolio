@@ -1,18 +1,26 @@
-.title-container{
-    font-size: 90px;
+    /* .wire-container-2{
+        font-size: 90px;
+        align-items: center;
+        margin-top: 0px;
+        display: flex;
+        height:800px;
+        justify-content: center;
+        background-color: rgb(92, 14, 14);
+        display: flex;
+    } */
+
+/* .title-container{
     align-items: center;
     margin-top: 300px;
+    margin-bottom: 300px;
     font-weight: bolder;
-    display: flex;
-    justify-content: center;
     background-color: blueviolet;
-}
+} */
 
-.title-layout{
+/* .title-layout{
     width: 1000px;
     background: red;
     margin: 0 0 0 0;
-    ;
 }
 
 .h1-style{
@@ -27,4 +35,5 @@
     justify-content: center;
     margin-top: 0px;
     font-weight: 100;
-}
+} */
+

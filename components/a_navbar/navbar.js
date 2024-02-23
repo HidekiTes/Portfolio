@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let navbarCSS = document.createElement("link");
     navbarCSS.rel="stylesheet"
-    navbarCSS.href="/components/navbar/navbar.css"
+    navbarCSS.href="/components/a_navbar/navbar.css"
     
     document.head.appendChild(navbarCSS)
 

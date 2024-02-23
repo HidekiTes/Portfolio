@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let titleHTML = 
         `
-            <div class="wire-container">
+            <div class="wireframe-comp-1">
                 <div class="title-container">
                     <div class="title-layout">  
                         <h1 class="h1-style">AAAAAA</h1>
@@ -19,11 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let titleCSS = document.createElement("link");
     titleCSS.rel="stylesheet"
-    titleCSS.href="/components/intro/intro.css"
+    titleCSS.href="/components/b_intro/intro.css"
 
-    // let wireCSS = document.createElement("link");
-    // wireCSS.rel="stylesheet"
-    // wireCSS.href="/components/wireframe/wireframeCSS"
+    let wireCSS = document.createElement("link");
+    wireCSS.rel="stylesheet"
+    wireCSS.href="/components/wireframe/wireframe.css"
 
     document.head.appendChild(titleCSS)
+    document.head.appendChild(wireCSS)
 });
