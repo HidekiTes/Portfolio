@@ -1,10 +1,19 @@
-.title-container{
+.wire-container{
     font-size: 90px;
     align-items: center;
-    margin-top: 300px;
-    font-weight: bolder;
+    margin-top: 60px;
     display: flex;
+    height: 760px;
     justify-content: center;
+    background-color: brown;
+    display: flex;
+}
+
+.title-container{
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-weight: bolder;
     background-color: blueviolet;
 }
 
@@ -12,7 +21,6 @@
     width: 1000px;
     background: red;
     margin: 0 0 0 0;
-    ;
 }
 
 .h1-style{
