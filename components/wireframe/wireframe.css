@@ -17,3 +17,12 @@
     justify-content: center;
     background-color: rgb(71, 165, 42);
 }
+
+.wireframe-comp-footer_back{
+    align-items: center;
+    margin-top: px;
+    display: flex;
+    height:800px;
+    justify-content: center;
+    background-color: rgb(195, 255, 0);
+}

@@ -1,4 +1,4 @@
-# Dicionário de aliases para at_input
+# Declaração de Dicionários
 nomes_dict = {
     1: 'Leonardo', 
     2: 'Lukas', 
@@ -6,9 +6,8 @@ nomes_dict = {
     4: 'Pedro', 
     5: 'Ruan', 
     6: 'Thales'
-}  # Adicione mais nomes conforme necessário
+}  
 
-# Dicionário de mensagens com base no número
 mensagens_dict = {
     1: "Merge Cancelado",
     2: "Mensagem de Revisão",
@@ -18,7 +17,6 @@ mensagens_dict = {
     6: "Subida Produção"
 }
 
-# Dicionário de respostas com base no numero_input
 respostas_dict = {
     1: " - A Tarefa teve o Merge Rejeitado.\nPor favor, resolva os problemas referentes a sua tarefa.",
     2: " - Está sendo revisado.",
@@ -76,7 +74,7 @@ while True:
 
         # Constrói e imprime a mensagem
         print("-------------------") 
-        mensagem = f"Task #{num_task_input} - @{at_input} {resultado_mensagem}"
+        mensagem = f"Task #{num_task_input} - @{at_input}{resultado_mensagem}"
         print(mensagem)
 
         # Opção para sair do loop
@@ -85,5 +83,6 @@ while True:
         if opcao.lower() != 's':
             break
     except ValueError:
+       
         # Mensagem de entrada inválida
         print("Entrada inválida. Por favor, digite um número inteiro.")

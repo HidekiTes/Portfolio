@@ -7,7 +7,7 @@
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
-  
+
 html {
   font-family: 'Mona Sans';
   width: 100vw;
@@ -56,6 +56,3 @@ body {
   border-radius: 30px;
 }
 
-
-
-/* Esconde a parte branca do scrollbar */
